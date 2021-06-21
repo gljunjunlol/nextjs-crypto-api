@@ -1,0 +1,103 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #101012;
+}
+
+.coin_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Layout CSS */
+.layout {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.coin_logo {
+  height: 200px;
+  width: 200px;
+}
+
+.header_logo {
+  height: 200px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 300px
+}
+
+.header_logo2 {
+  height: 200px;
+  width: 200px;
+  margin-top: 5px;
+  margin-left: -200px;
+  color:rgb(32, 109, 114)
+}
+
+.coin-icon {
+  max-width: 50px;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.card.selected {
+  border: 3px solid #41cc16;
+}
+
+.form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form.fa-exchange-alt {
+  line-height: unset;
+  padding: 0 10px;
+}
+
+.form-control:valid {
+  background-color: #ff008c;
+}
+
+.custom-btn {
+  background: rgb(50, 88, 212);
+  color: rgb(255, 0, 200);
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
